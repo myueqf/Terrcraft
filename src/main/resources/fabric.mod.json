@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "test",
+  "version": "${version}",
+
+  "name": "Terrcraft",
+  "description": "我~拉~的~世~",
+  "authors": [
+    "lanzhan5656"
+  ],
+  "contact": {},
+
+  "license": "All-Rights-Reserved",
+  "icon": "assets/test/icon.png",
+
+  "environment": "*",
+  "accessWidener": "test.accesswidener",
+
+  "entrypoints": {
+    "main": ["io.github.myueqf.test"]
+  },
+
+  "mixins": [
+    "test.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "~1.21"
+  }
+}
