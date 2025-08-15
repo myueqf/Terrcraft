@@ -26,9 +26,9 @@ public class test implements ModInitializer {
         LOGGER.info(" / / /_/ / / / / / /_/ / / / /_/ / / / /___/ / /_/ /___/ / /_/ /");
         LOGGER.info("/_/\\__,_/_/ /_/ /___/_/ /_/\\__,_/_/ /_/_____/\\____/_____/\\____/");
         ServerLifecycleEvents.SERVER_STARTED.register(server -> {
-            LOGGER.info("     猫猫探头～");
-            LOGGER.info(" (=^-ω-^=)   ");
-            LOGGER.info("=============");
+            LOGGER.info("    猫猫探头～");
+            LOGGER.info("(=^-ω-^=)   ");
+            LOGGER.info("============");
         });
     }
 }
